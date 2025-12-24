@@ -6,11 +6,11 @@ let jariLingkaran = 21;
 
 let luasLingkaran = phi * r * r;
 
-console.log("luas lingkaran adalah " + luasLingkaran);
-
 let kelilingLingkaran = 2 * phi * r;
 
 console.log("keliling lingkarang adalah " + kelilingLingkaran);
+
+console.log("luas lingkaran adalah " + luasLingkaran);
 
 
 
