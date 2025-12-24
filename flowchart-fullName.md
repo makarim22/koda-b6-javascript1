@@ -8,7 +8,7 @@ C@{ shape: diamond, label: "is fullName == 'Jane'?" } --> D
 
 C -- FALSE --> E
 
-D@{ shape: rect, label: "Output: \"hello fullName\" "} 
+D@{ shape: rect, label: "Output: \"hello\" fullName "} 
 
 E@{ shape: diamond, label: "is fullName == 'Dan' || fullName == 'John'?" } --> F
 
@@ -31,4 +31,5 @@ H@{ shape: rect, label: "Output: \"Let's go to school!\" " }
 K@{ shape: rect, label: "Output: \"Hola!\" " }
 
 ```
+
 
