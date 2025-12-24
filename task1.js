@@ -1,34 +1,25 @@
-## task 1
+// menghitung luas dan keliling lingkaran
 
-```mermaid
-flowchart TD
+let jariLingkaran = 14;
 
-A@{ shape: circle, label: "start"} --> B
+let phi = null;
+if (jariLingkaran % 7 == 0){
+  phi = 22/7;
+} else {
+  phi = 3.14;
+} 
 
-B@{ shape: lean-r, label: "Input: jariLingkaran" } --> H
+console.log("phi :", phi);
 
-H@{ shape : diamond, label: "is jariLingkaran % 7 == 0?"}
 
-H -- FALSE --> C
+let luasLingkaran = phi * jariLingkaran * jariLingkaran;
 
-H -- TRUE --> U
+let kelilingLingkaran = 2 * phi * jariLingkaran;
 
-C@{ shape: rect, label: "LuasLingkaran = 3.14 * r * r" } --> F
+console.log("keliling lingkarang adalah " + kelilingLingkaran);
 
-F@{ shape: rect, label: "KelilingLingkaran = 2* 3.14 * r" } --> K
+console.log("luas lingkaran adalah " + luasLingkaran);
 
-U@{ shape: rect, label: "LuasLingkaran = 22/7 * r * r" } --> I
 
-I@{ shape: rect, label: "KelilingLingkaran = 2* 22/7 * r" } --> O
 
-K@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  KelilingLingkaran" } --> L
 
-L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  LuasLingkaran" } --> J
-
-O@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  KelilingLingkaran" }  --> P
-
-P@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  LuasLingkaran" } --> J
-
-J@{ shape: circle, label: "Stop" }
-
-```
