@@ -14,9 +14,10 @@ F@{ shape: rect, label: "K = 2* 3.14 * r" } --> K
 
 K@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  K" } --> L
 
-L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  K" } --> J
+L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\" L" } --> J
 
 
 J@{ shape: circle, label: "Stop" }
 
 ```
+
