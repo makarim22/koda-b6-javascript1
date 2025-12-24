@@ -8,9 +8,9 @@ C@{ shape: diamond, label: "fullName == 'Jane'" } -->|TRUE| D
 
 C -- FALSE --> E
 
-D@{ shape: rect, label: "hello fullName"} 
+D@{ shape: rect, label: "Output: \"hello\" + fullName "} 
 
-E@{ shape: diamond, label: "fullName == 'Dan' || fullName == 'John'?" } --> |TRUE| F
+E@{ shape: diamond, label: "fullName == 'Dan' || fullName == 'John'" } --> |TRUE| F
 
 E -- FALSE --> K
 
@@ -40,3 +40,4 @@ K --> Z
 Q --> Z 
 P --> Z
 ```
+
