@@ -4,13 +4,13 @@ A@{ shape: circle, label: "start"} --> B
 
 B@{ shape: lean-r, label: "Input : fullName, age, hobbies" } --> C
 
-C@{ shape: diamond, label: "is fullName == 'Jane'?" } --> D
+C@{ shape: diamond, label: "is fullName == 'Jane'?" } -->|TRUE| D
 
 C -- FALSE --> E
 
 D@{ shape: rect, label: "hello fullName"} 
 
-E@{ shape: diamond, label: "is fullName == 'Dan' || fullName == 'John'?" } --> F
+E@{ shape: diamond, label: "is fullName == 'Dan' || fullName == 'John'?" } --> |TRUE| F
 
 E -- FALSE --> K
 
