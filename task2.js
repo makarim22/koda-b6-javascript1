@@ -20,9 +20,33 @@ console.log(hello.world);
 
 // 3
 
-const bootcamp = {
+const obj = {
+    str : [
+        [],
+        [],
+        [],
+        [
+            [],
+            [
+                [],
+                [],
+                {
+                    man : [
+                        {
+                            tech : {
+                                    academy : "Tech Academy"
+                            }
+                        }
+                    ]
+                }
+            ],
+            []
+        ]
+    ]
+}
 
-};
+console.log(obj.str[3][1][2].man[0].tech.academy);
+
 
 // 4
 const my =[
@@ -46,6 +70,7 @@ const num = {
 }
 
 console.log(num.first[1] + num.second[2]);
+
 
 
 
