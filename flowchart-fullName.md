@@ -36,7 +36,7 @@ flowchart TD
 
     K@{ shape: lean-r, label: "Output: \"Hola!\"" } 
 
-    O@{ shape: diamond, label: "hobbies[0] == 'Programming'?" } -->|TRUE| P
+    O@{ shape: diamond, label: "hobbies == 'Programming'?" } -->|TRUE| P
 
     O -- FALSE --> Z
 
@@ -52,4 +52,5 @@ flowchart TD
     H --> Z
     J --> Z
 ```
+
 
