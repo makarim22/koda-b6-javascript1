@@ -19,7 +19,7 @@ flowchart TD
 
     E -- FALSE --> G
 
-    G@{ shape: diamond, label: "fullName == 'John'?" } 
+    G@{ shape: diamond, label: "fullName == 'John'" } 
     G -- TRUE --> J
 
     J@{ shape: lean-r, label: "Output: \"Hi \" + fullName" } 
@@ -52,3 +52,4 @@ flowchart TD
     H --> Z
     J --> Z
 ```
+
