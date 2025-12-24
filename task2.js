@@ -25,7 +25,18 @@ const bootcamp = {
 };
 
 // 4
+const my =[
+    {
+        favourite : [
+            { fruit: { name : "fruit" , is : "apple"}},
+            { fruit: { name : "fruit" , is : "orange"}},
+            { fruit: { name : "fruit" , is : "avocado"}},
+            { fruit: { name : "fruit" , is : "banana"}}
+        ]
+    }
+]
 
+console.log(my[0].favourite[3].fruit.is);
 
 // 5
 
@@ -35,4 +46,5 @@ const num = {
 }
 
 console.log(num.first[1] + num.second[2]);
+
 
