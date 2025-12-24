@@ -22,7 +22,7 @@ S --> F
 
 F@{ shape: diamond, label: "age > 18 "} 
 
-F  --> Q
+F  --> |TRUE| Q
 
 F -- FALSE --> H
 
