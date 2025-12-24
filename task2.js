@@ -1,0 +1,38 @@
+
+// 1
+const we = {
+    are : {
+        the : {
+            best : "Koda"
+        }
+    }
+};
+
+console.log(we.are.the.best);
+
+// 2
+
+
+const Hello = {
+    world : "Hello World"
+}
+console.log(Hello.world);
+
+// 3
+
+const bootcamp = {
+
+};
+
+// 4
+
+
+// 5
+
+const num = {
+    first : [15, 16, 17],
+    second : [8, 12, 16]
+}
+
+console.log(num.first[1] + num.second[2]);
+
