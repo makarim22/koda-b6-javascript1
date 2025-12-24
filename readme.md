@@ -13,13 +13,13 @@ H -- FALSE --> C
 
 H -- TRUE --> U
 
-C@{ shape: rect, label: "LuasLingkaran = 3.14 * r * r" } --> F
+C@{ shape: rect, label: "LuasLingkaran = 3.14 * jariLingkaran * jariLingkaran" } --> F
 
-F@{ shape: rect, label: "KelilingLingkaran = 2* 3.14 * r" } --> K
+F@{ shape: rect, label: "KelilingLingkaran = 2* 3.14 * jariLingkaran" } --> K
 
-U@{ shape: rect, label: "LuasLingkaran = 22/7 * r * r" } --> I
+U@{ shape: rect, label: "LuasLingkaran = 22/7 * jariLingkaran * jariLingkaran" } --> I
 
-I@{ shape: rect, label: "KelilingLingkaran = 2* 22/7 * r" } --> O
+I@{ shape: rect, label: "KelilingLingkaran = 2* 22/7 * jariLingkaran" } --> O
 
 K@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  KelilingLingkaran" } --> L
 
@@ -32,3 +32,4 @@ P@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  LuasLingkaran" } -
 J@{ shape: circle, label: "Stop" }
 
 ```
+
