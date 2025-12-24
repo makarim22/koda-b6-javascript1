@@ -8,19 +8,25 @@ flowchart TD
 
     C -- FALSE --> E
 
-    D@{ shape: lean-r, label: "Output: \"Hello \" + fullName" } 
+    D@{ shape: lean-r, label: "Output: \"Hello \" + fullName" }
 
     E@{ shape: diamond, label: "fullName == 'Dan' || fullName == 'John'" } 
 
     E -- TRUE --> S
 
     S@{ shape: lean-r, label: "Output: \"What's up \" + fullName" } 
-
-    E -- FALSE --> K
-
     S --> F
 
-    F@{ shape: diamond, label: "age > 18" } 
+    E -- FALSE --> G
+
+    G@{ shape: diamond, label: "fullName == 'John'?" } 
+    G -- TRUE --> J
+
+    J@{ shape: lean-r, label: "Output: \"Hi \" + fullName" } 
+
+    G -- FALSE --> K
+
+    F@{ shape: diamond, label: "age > 18?" } 
 
     F  --> |TRUE| Q
 
@@ -30,7 +36,7 @@ flowchart TD
 
     K@{ shape: lean-r, label: "Output: \"Hola!\"" } 
 
-    O@{ shape: diamond, label: "hobbies == 'Programming'" } -->|TRUE| P
+    O@{ shape: diamond, label: "hobbies[0] == 'Programming'?" } -->|TRUE| P
 
     O -- FALSE --> Z
 
@@ -44,5 +50,5 @@ flowchart TD
     K --> Z
     P --> Z
     H --> Z
+    J --> Z
 ```
-
