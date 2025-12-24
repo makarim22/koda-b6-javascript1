@@ -8,13 +8,13 @@ C@{ shape: diamond, label: "fullName == 'Jane'" } -->|TRUE| D
 
 C -- FALSE --> E
 
-D@{ shape: rect, label: "hello fullName"} 
+D@{ shape: lean-r, label: "Output: \"hello\" + fullName" } 
 
 E@{ shape: diamond, label: "fullName == 'Dan' || fullName == 'John'?" } 
 
 E -- TRUE --> S
 
-S@{ shape: rect, label: "Output: \"Whats'up\" + fullName " }
+S@{ shape: lean-r, label: "Output: \"Whats'up\" + fullName " }
 
 E -- FALSE --> K
 
@@ -26,16 +26,16 @@ F  --> |TRUE| Q
 
 F -- FALSE --> H
 
-H@{ shape: rect, label: "Output: \"Let's go to school!\" " } 
+H@{ shape: lean-r, label: "Output: \"Let's go to school!\" " } 
 
-K@{ shape: rect, label: "Output: \"Hola!\" " }
+K@{ shape: lean-r, label: "Output: \"Hola!\" " }
 
 O@{ shape: diamond, label: "hobbies == programming" } -->|TRUE| P
 
 
-P@{ shape: rect, label: "Output: \"I Love Javascript!\" "} 
+P@{ shape: lean-r, label: "Output: \"I Love Javascript!\" "} 
 
-Q@{ shape: rect, label: "Output: \"How are you today?\" "} --> O
+Q@{ shape: lean-r, label: "Output: \"How are you today?\" "} --> O
 
 Z@{ shape: circle, label: "stop" }
 
