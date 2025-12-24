@@ -25,11 +25,11 @@ F@{ shape: rect, label: "K =2* 3.14 * r" }
 
 K@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  K" }
 
-L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  K" }
+L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  L" }
 
 M@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  K" }
 
-N@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  K" }
+N@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  L" }
 
 C --> L
 D --> N
@@ -44,5 +44,6 @@ L --> J
 N --> J
 K --> J
 M --> J
+
 
 ```
