@@ -13,10 +13,10 @@ console.log(we.are.the.best);
 // 2
 
 
-const Hello = {
+const hello = {
     world : "Hello World"
 }
-console.log(Hello.world);
+console.log(hello.world);
 
 // 3
 
@@ -46,5 +46,6 @@ const num = {
 }
 
 console.log(num.first[1] + num.second[2]);
+
 
 
