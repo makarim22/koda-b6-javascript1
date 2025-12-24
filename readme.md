@@ -5,45 +5,18 @@ flowchart TD
 
 A@{ shape: circle, label: "start"} --> B
 
-B@{ shape: lean-r, label: "Input: r" } --> Z
+B@{ shape: lean-r, label: "Input: r" } --> C
 
-Z@{ shape: diamond, label: "is r % 7 == 0?"  }
 
-Z -- TRUE --> D
-Z -- FALSE --> C
+C@{ shape: rect, label: "L = 3.14 * r * r" } --> F
 
-Z -- TRUE --> E
-Z -- FALSE --> F
+F@{ shape: rect, label: "K = 2* 3.14 * r" } --> K
 
-C@{ shape: rect, label: "L = 3.14 * r * r" }
+K@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  K" } --> L
 
-D@{ shape: rect, label: "L = 22/7 * r * r" }
-
-E@{ shape: rect, label: "K = 2 * 22/7 * r" }
-
-F@{ shape: rect, label: "K =2* 3.14 * r" }
-
-K@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  K" }
-
-L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  L" }
-
-M@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\"  K" }
-
-N@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  L" }
-
-C --> L
-D --> N
-E --> K
-F --> M 
-
+L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\"  K" } --> J
 
 
 J@{ shape: circle, label: "Stop" }
-
-L --> J
-N --> J
-K --> J
-M --> J
-
 
 ```
