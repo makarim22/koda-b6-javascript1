@@ -20,17 +20,22 @@ H@{ shape: lean-r, label: "Output: \"Bonjour!\" " }
 
 Z@{ shape: circle, label: "Stop" } 
 
+Y@{ shape: lean-r, label: "Output: \"Lanjutan\" " }
+
+
 C -- TRUE --> D
 C -- FALSE --> E
 
-D --> Z
+D --> Y
 E --> F
 
 F -- TRUE --> G
 F -- FALSE --> H
 
-G --> Z
-H --> Z
+G --> Y
+H --> Y
+
+Y --> Z
 
 
 
