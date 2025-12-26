@@ -3,10 +3,10 @@ flowchart TD
 
 A@{ shape: circle, label: "Start" } --> B
 
-B@{ shape: lean-r, label: "Input: \"IS_FEATURE_ACTIVE, num\"" }  --> C
+B@{ shape: lean-r, label: "Input: IS_FEATURE_ACTIVE, num" }  --> C
 
 
-C@{ shape: diamond, label: "IS_FEATURE_ACTIVE === TRUE" }
+C@{ shape: diamond, label: "IS_FEATURE_ACTIVE == TRUE" }
 
 D@{ shape: lean-r, label: "Output: \"Hello\" " }
 
@@ -25,9 +25,10 @@ Y@{ shape: lean-r, label: "Output: \"Lanjutan\" " }
 
 C -- TRUE --> D
 C -- FALSE --> E
+C --> F
 
 D --> Y
-E --> F
+E --> Y
 
 F -- TRUE --> G
 F -- FALSE --> H
@@ -48,4 +49,3 @@ Y --> Z
 
 
 ```
-
