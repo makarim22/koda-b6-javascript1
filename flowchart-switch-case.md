@@ -23,7 +23,7 @@ Z@{ shape: circle, label: "Stop" }
 C -- TRUE --> D
 C -- FALSE --> E
 
-D --> F
+D --> Z
 E --> F
 
 F -- TRUE --> G
