@@ -16,7 +16,7 @@ F@{ shape: rect, label: "x = 10" }
 
 G@{ shape: rect, label: "x = x + 1" }
 
-H@{ shape: dbl-circ, label: "End" }
+H@{ shape: dbl-circ, label: "Stop" }
 
 C -->|TRUE| D
 C -->|FALSE| H
@@ -29,4 +29,5 @@ E -- "FALSE" --> G
 F --> G
 G --> C
 ```
+
 
