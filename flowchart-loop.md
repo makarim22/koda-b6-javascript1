@@ -4,7 +4,7 @@ flowchart TD
 
 A@{ shape: circle, label: "Start" } --> B
 
-B@{ shape: rect, label: "x = 1" } --> C
+B@{ shape: lean-r, label: "x = 1" } --> C
 
 C@{ shape: diamond, label: "x <= 10" }
 
@@ -29,3 +29,4 @@ E -- "FALSE" --> G
 F --> G
 G --> C
 ```
+
