@@ -15,7 +15,7 @@ D --> EA
 EA --> EB
 EB --> EC
 
-J@{ shape : lean-r, label: "Output: \"Tipe data harus berupa angka!\" "}
+J@{ shape : lean-r, label: "Output: \"Tipe data harus berupa angka!\" "} --> B
 
 D@{ shape : diamond, label: "tempSource === \"Celcius\" " }
 
@@ -94,6 +94,7 @@ EE & EG & EI & FI & FE & FG & HE & HG & HI & NE & NG & NI --> Y
 Y@{ shape : lean-r, label: "Output: temp" } --> Z
 
 Z@{ shape: dbl-circ, label: "Stop" }
+
 
 
 
