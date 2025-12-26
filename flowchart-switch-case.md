@@ -6,7 +6,7 @@ A@{ shape: circle, label: "Start" } --> B
 B@{ shape: lean-r, label: "Input: \"IS_FEATURE_ACTIVE, num\"" }  --> C
 
 
-C@{ shape: diamond, label: "IS_FEATURE_ACTIVE == TRUE" }
+C@{ shape: diamond, label: "IS_FEATURE_ACTIVE === TRUE" }
 
 D@{ shape: lean-r, label: "Output: \"Hello\" " }
 
@@ -48,3 +48,4 @@ Y --> Z
 
 
 ```
+
