@@ -10,7 +10,7 @@ C@{ shape: diamond, label: "x <= 10" }
 
 D@{ shape: lean-r, label: "Output: x" }
 
-E@{ shape: diamond, label: "Is x === 5?" }
+E@{ shape: diamond, label: "x === 5" }
 
 F@{ shape: rect, label: "x = 10" }
 
@@ -28,4 +28,5 @@ E -- "FALSE" --> G
 
 F --> G
 G --> C
+
 ```
