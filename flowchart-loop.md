@@ -38,7 +38,7 @@ A@{ shape: circle, label: "Start" } --> B
 
 B@{ shape: lean-r, label: "Input: x = 1" } --> C
 
-C@{ shape: rect, label: "Output: x" } --> D
+C@{ shape: lean-r, label: "Output: x" } --> D
 
 D@{ shape: diamond, label: " x === 5" }
 
@@ -61,5 +61,6 @@ G -- "TRUE" --> C
 G -- "FALSE" --> H
 
 ```
+
 
 
