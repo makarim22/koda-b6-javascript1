@@ -1,5 +1,10 @@
 # membuat flowchart
 
+## to-do: 
+
+membuat input manual pada terminal
+
+
 ```mermaid
 flowchart TD
 A@{ shape : circle, label: "Start" } --> B
@@ -99,3 +104,4 @@ Z@{ shape: dbl-circ, label: "Stop" }
 
 
 ```
+
